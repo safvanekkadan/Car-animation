@@ -21,7 +21,7 @@ class _TripListState extends State<TripList> {
   void _addTrips() {
     // get data from db
     List<Trip> _trips = [
-      Trip(title: 'Land Rover Defender', price: '2.30 Cr', seater: '6', img: 'flr_animtn/assets/front-left-side-47.jpg.png'),
+      Trip(title: 'Land Rover Defender', price: '2.30 Cr', seater: '6', img: 'flr_animtn/assets/defender.jpg'),
       Trip(title: 'City Break', price: '400', seater: '5', img: 'city.png'),
       Trip(title: 'Ski Adventure', price: '750', seater: '2', img: 'ski.png'),
       Trip(title: 'Space Blast', price: '600', seater: '4', img: 'space.png'),
