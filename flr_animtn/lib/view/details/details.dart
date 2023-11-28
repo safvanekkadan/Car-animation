@@ -1,12 +1,12 @@
-import 'package:flr_animtn/heart.dart';
-import 'package:flr_animtn/model/col_model.dart';
+import 'package:flr_animtn/model/car_model.dart';
+import 'package:flr_animtn/view/details/widgets/thumb_icon.dart';
 import 'package:flutter/material.dart';
 
 
 class Details extends StatelessWidget {
 
-  final Trip trip;
-  Details({ required this.trip });
+  final CarModel car;
+  Details({ required this.car });
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +22,9 @@ class Details extends StatelessWidget {
           children: <Widget>[
             ClipRRect(
               child:Hero(
-                tag:'car-img-${trip.img}' ,
+                tag:'car-img-${car.img}' ,
                 child: Image.asset(
-                  'images/${trip.img}',
+                  'images/${car.img}',
                   height: 360,
                   fit: BoxFit.cover,
                   alignment: Alignment.topCenter,
@@ -34,7 +34,7 @@ class Details extends StatelessWidget {
             SizedBox(height: 30),
             ListTile(
               title: Text(
-                trip.title,
+                car.title,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
@@ -42,10 +42,10 @@ class Details extends StatelessWidget {
                 )
               ),
               subtitle: Text(
-                '${trip.seater} night stay for only \$${trip.price}',
+                '${car.seater} night stay for only \$${car.price}',
                 style: TextStyle(letterSpacing: 1)
               ),
-              trailing: Heart()
+              trailing: HeartIcon()
             ),
             // Padding(
             //   padding: EdgeInsets.all(18),

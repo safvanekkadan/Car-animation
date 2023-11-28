@@ -1,12 +1,14 @@
-class Trip {
+class CarModel {
   final String title;
   final String price;
   final String seater;
   final String img;
+  final String details;
 
-  Trip({
+  CarModel({
     required this.title, 
     required this.price, 
-    required this.seater, 
+    required this.seater,
+    required this.details,
     required this.img});
 }

@@ -1,0 +1,46 @@
+{
+"texttitle":"Car Collection",
+"@texttitle":{
+    "description":"Car Collection"
+},
+"astontitle":"Aston Martin Rapide",
+"@astontitle":{
+    "description":"Aston Martin Rapide"
+},
+"astondetails":"The big Aston is old now but just look at it! It has to be the best-looking luxury 4-door that money can buy today. And we are including this for all the old-school readers out there. It reeks of old school charm starting with the archaic 6.0-litre naturally aspirated (beat that) engine developing 558PS and 630Nm of torque. Other goodies include an opulent 4-seater cabin, 8-speed Touchtronic III gearbox, a sports exhaust and 3-stage adaptive damping. We don’t know about you but we would definitely buy one just for the way it looks. How much? It starts from a casual Rs 3.29 crore (ex-showroom India)",
+"@astondetails":{
+    "description":"The big Aston is old now but just look at it! It has to be the best-looking luxury 4-door that money can buy today. And we are including this for all the old-school readers out there. It reeks of old school charm starting with the archaic 6.0-litre naturally aspirated (beat that) engine developing 558PS and 630Nm of torque. Other goodies include an opulent 4-seater cabin, 8-speed Touchtronic III gearbox, a sports exhaust and 3-stage adaptive damping. We don’t know about you but we would definitely buy one just for the way it looks. How much? It starts from a casual Rs 3.29 crore (ex-showroom India)"
+},
+"defenderttitle":"Rolls-Royce Phantom",
+"@broasttitle":{
+    "description":"Rolls-Royce Phantom"
+},
+"defenderdetails":"Obviously, the Phantom tops the list here. There’s nothing as majestic as the Rolls-Royce Phantom to announce your arrival. The eighth-generation version packs in an aluminium space frame chassis married to a 6.75-litre twin-turbocharged V12 (565PS and 900 Nm of peak torque) and a freakishly quiet cabin that is more luxurious than the Buckingham Palace. Finest leather in the world, Phantom’s starlight headliner,  and champagne cooler are some of the highlights. Cons? It costs a whopping Rs 9.5 crore for standard wheelbase and Rs 11.35 crore for the long wheelbase version",
+"@defenderdetails":{
+    "description":"Obviously, the Phantom tops the list here. There’s nothing as majestic as the Rolls-Royce Phantom to announce your arrival. The eighth-generation version packs in an aluminium space frame chassis married to a 6.75-litre twin-turbocharged V12 (565PS and 900 Nm of peak torque) and a freakishly quiet cabin that is more luxurious than the Buckingham Palace. Finest leather in the world, Phantom’s starlight headliner,  and champagne cooler are some of the highlights. Cons? It costs a whopping Rs 9.5 crore for standard wheelbase and Rs 11.35 crore for the long wheelbase version"
+},
+"bentlytitle":"Bentley Mulsanne",
+"@bentlytitle":{
+    "description":"Bentley Mulsanne"
+},
+"bentlydetails":"Bentley has got you covered with the near-Rs-10-crore Mulsanne. You can opt for the standard or extended wheelbase version powered by a 6.8-litre twin-turbo V8 petrol engine that is good enough for 512PS and 1020Nm of twist. We could try and list out some of the otherworldly features but we wouldn't even scratch the surface. So let it be. But get this, if the Phantom is equivalent to the Buckingham palace, the Mulsanne is definitely the Windsor castle on wheels.",
+"@bentlydetails":{
+    "description":"Bentley has got you covered with the near-Rs-10-crore Mulsanne. You can opt for the standard or extended wheelbase version powered by a 6.8-litre twin-turbo V8 petrol engine that is good enough for 512PS and 1020Nm of twist. We could try and list out some of the otherworldly features but we wouldn't even scratch the surface. So let it be. But get this, if the Phantom is equivalent to the Buckingham palace, the Mulsanne is definitely the Windsor castle on wheels."
+},
+"lamborginititle":"Lamborghini Urus",
+"@lamborginititle":{
+    "description":"Lamborghini Urus"
+},
+"lamborginidetails":"Since we are on the topic of fast SUVs, we can’t ignore the Lamborghini Urus. More of a sporty SUV than a luxurious offering, the Urus deserves to be on this list. It is underpinned by the same platform as the Bentayga but the Urus is all about speed. And you can't say no to more speed. A 4.0-litre V8 producing 650PS and 850Nm of torque in conjunction with an 8-speed ZF gearbox helps when you’re in a hurry.  0-100kmph comes up in a supercar-shaming 3.6 seconds while it maxes out at 305kmph. Prices start from around Rs 3 crore in India",
+"@lamborginidetails":{
+    "description":"Since we are on the topic of fast SUVs, we can’t ignore the Lamborghini Urus. More of a sporty SUV than a luxurious offering, the Urus deserves to be on this list. It is underpinned by the same platform as the Bentayga but the Urus is all about speed. And you can't say no to more speed. A 4.0-litre V8 producing 650PS and 850Nm of torque in conjunction with an 8-speed ZF gearbox helps when you’re in a hurry.  0-100kmph comes up in a supercar-shaming 3.6 seconds while it maxes out at 305kmph. Prices start from around Rs 3 crore in India,"
+  },
+  "volvotitle":"Volvo XC90",
+"@volvotitle":{
+    "description":"Volvo XC90"
+},
+"volvodetails":"We bet you never imagined a Volvo would make it to this list. You see, this is no ordinary XC90 that we have here. The XC90 Excellence lounge is a proper 3-seater luxury barge which ditches some of its seats for true business class airline experience. In place of the front passenger seat, you get a 17-inch touchscreen display that can also double up as a footrest. Powering the SUV is a T8 Twin-Engine motor good for 407PS and 640Nm of peak torque. It is relatively cheaper in comparison to other cars in this list at Rs 1.42 crore (ex-showroom). That’s valuable consumer advice right there",
+"@volvodetails":{
+    "description":"We bet you never imagined a Volvo would make it to this list. You see, this is no ordinary XC90 that we have here. The XC90 Excellence lounge is a proper 3-seater luxury barge which ditches some of its seats for true business class airline experience. In place of the front passenger seat, you get a 17-inch touchscreen display that can also double up as a footrest. Powering the SUV is a T8 Twin-Engine motor good for 407PS and 640Nm of peak torque. It is relatively cheaper in comparison to other cars in this list at Rs 1.42 crore (ex-showroom). That’s valuable consumer advice right there"
+  }
+}
