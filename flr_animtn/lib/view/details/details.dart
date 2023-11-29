@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class Details extends StatelessWidget {
 
   final CarModel car;
-  Details({ required this.car });
+  const Details({super.key,  required this.car });
 
   @override
   Widget build(BuildContext context) {
@@ -16,22 +16,22 @@ class Details extends StatelessWidget {
         elevation: 0,
       ),
       extendBodyBehindAppBar: true,
-      body: Container(
+      body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             ClipRRect(
               child:Hero(
-                tag:'car-img-${car.img}' ,
+                tag:'tag${car.img}' ,
                 child: Image.asset(
-                  'images/${car.img}',
-                  height: 360,
+                  'assets/${car.img}',
+                  height: 290,
                   fit: BoxFit.cover,
                   alignment: Alignment.topCenter,
                 ),
               )
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
             ListTile(
               title: Text(
                 car.title,
@@ -42,21 +42,21 @@ class Details extends StatelessWidget {
                 )
               ),
               subtitle: Text(
-                '${car.seater} night stay for only \$${car.price}',
-                style: TextStyle(letterSpacing: 1)
+                '${car.seater} seat car just explore ₹${car.price}',
+                style: const TextStyle(letterSpacing: 1)
               ),
-              trailing: HeartIcon()
+              trailing: const LOL()
             ),
-            // Padding(
-            //   padding: EdgeInsets.all(18),
-            //   child: Text(
-            //     lipsum.createText(numParagraphs: 1, numSentences: 3),
-            //     style: TextStyle(
-            //       color: Colors.grey[600],
-            //       height: 1.4
-            //     )
-            //   )
-            // ),
+            Padding(
+              padding: const EdgeInsets.all(18),
+              child: Text(
+                car.details,
+                 style: TextStyle(
+                  color: Colors.grey[600],
+                  height: 1.4
+                 ),
+                ),
+              ),
           ],
         ),
       )

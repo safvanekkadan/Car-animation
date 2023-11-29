@@ -8,7 +8,7 @@ class ThumbIconProvider extends ChangeNotifier {
 
   void changeIconColor() {
     if (iconColor == cGreyColor) {
-      iconColor = cBluenColor;
+      iconColor = cBlackColor;
       targetvalue = 40;
     } else {
       iconColor = cGreyColor;

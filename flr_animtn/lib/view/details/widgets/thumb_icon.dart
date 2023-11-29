@@ -3,8 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class HeartIcon extends StatelessWidget {
-  const HeartIcon({super.key});
+class LOL extends StatelessWidget {
+  const LOL({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,11 +13,11 @@ class HeartIcon extends StatelessWidget {
         return TweenAnimationBuilder(
           tween: Tween<double>(
               begin: iconProvider.targetvalue, end: iconProvider.targetvalue),
-          duration: const Duration(seconds: 1),
+          duration: const Duration(milliseconds: 320),
           builder: (context, value, child) {
             return IconButton(
               icon: Icon(
-                CupertinoIcons.hand_thumbsup_fill,
+                CupertinoIcons.largecircle_fill_circle,
                 color: iconProvider.iconColor,
                 size: value,
               ),

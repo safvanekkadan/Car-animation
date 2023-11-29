@@ -11,13 +11,21 @@
 "@astondetails":{
     "description":"El gran Aston ya es viejo, ¡pero míralo! Tiene que ser el cuatro puertas de lujo más atractivo que el dinero pueda comprar hoy en día. Y estamos incluyendo esto para todos los lectores de la vieja escuela. Apesta al encanto de la vieja escuela, empezando por el arcaico motor atmosférico de 6,0 litros que desarrolla 558 CV y ​​630 Nm de par. Otras ventajas incluyen una opulenta cabina de 4 plazas, una caja de cambios Touchtronic III de 8 velocidades, un escape deportivo y amortiguación adaptativa de 3 etapas. No sabemos ustedes, pero definitivamente compraríamos uno solo por su apariencia. ¿Cuánto cuesta? Comienza desde 3,29 millones de rupias (ex-sala de exposición en India)"
 },
-"defenderttitle":"Rolls Royce Fantasma",
-"@broasttitle":{
+"rolsroycettitlettitle":"Rolls Royce Fantasma",
+"@rolsroycettitle":{
     "description":"Rolls Royce Fantasma"
 },
-"defenderdetails":"Obviamente, el Phantom encabeza la lista aquí. No hay nada tan majestuoso como el Rolls-Royce Phantom para anunciar tu llegada. La versión de octava generación incluye un chasis espacial de aluminio combinado con un V12 biturbo de 6,75 litros (565 CV y ​​900 Nm de par máximo) y una cabina increíblemente silenciosa que es más lujosa que el Palacio de Buckingham. El cuero más fino del mundo, el techo interior estrellado del Phantom y la nevera para champán son algunos de los aspectos más destacados. ¿Contras? Cuesta la friolera de 9,5 millones de rupias para la versión con distancia entre ejes estándar y 11,35 millones de rupias para la versión con distancia entre ejes larga.",
-"@defenderdetails":{
-    "description":"Obviamente, el Phantom encabeza la lista aquí. No hay nada tan majestuoso como el Rolls-Royce Phantom para anunciar tu llegada. La versión de octava generación incluye un chasis espacial de aluminio combinado con un V12 biturbo de 6,75 litros (565 CV y ​​900 Nm de par máximo) y una cabina increíblemente silenciosa que es más lujosa que el Palacio de Buckingham. El cuero más fino del mundo, el techo interior estrellado del Phantom y la nevera para champán son algunos de los aspectos más destacados. ¿Contras? Cuesta la friolera de 9,5 millones de rupias para la versión con distancia entre ejes estándar y 11,35 millones de rupias para la versión con distancia entre ejes larga"."
+"rolsroycedetails":"Obviamente, el Phantom encabeza la lista aquí. No hay nada tan majestuoso como el Rolls-Royce Phantom para anunciar tu llegada. La versión de octava generación incluye un chasis espacial de aluminio combinado con un V12 biturbo de 6,75 litros (565 CV y ​​900 Nm de par máximo) y una cabina increíblemente silenciosa que es más lujosa que el Palacio de Buckingham. El cuero más fino del mundo, el techo interior estrellado del Phantom y la nevera para champán son algunos de los aspectos más destacados. ¿Contras? Cuesta la friolera de 9,5 millones de rupias para la versión con distancia entre ejes estándar y 11,35 millones de rupias para la versión con distancia entre ejes larga.",
+"@rolsroysedetails":{
+    "description":"Obviamente, el Phantom encabeza la lista aquí. No hay nada tan majestuoso como el Rolls-Royce Phantom para anunciar tu llegada. La versión de octava generación incluye un chasis espacial de aluminio combinado con un V12 biturbo de 6,75 litros (565 CV y ​​900 Nm de par máximo) y una cabina increíblemente silenciosa que es más lujosa que el Palacio de Buckingham. El cuero más fino del mundo, el techo interior estrellado del Phantom y la nevera para champán son algunos de los aspectos más destacados. ¿Contras? Cuesta la friolera de 9,5 millones de rupias para la versión con distancia entre ejes estándar y 11,35 millones de rupias para la versión con distancia entre ejes larga."
+},
+"bmwtitle":"BMW Z4",
+"@bmwtitle":{
+    "description":"BMW Z4"
+},
+"bmwdetails":"El BMW Z4 tiene 1 motor de gasolina en oferta. El motor de gasolina es de 2998 cc. Está disponible con transmisión automática. Según la variante y el tipo de combustible, el Z4 tiene un kilometraje de . El Z4 es un coche biplaza de 6 cilindros y tiene una longitud de 4324 mm, una anchura de 2024 mm y una distancia entre ejes de 2470 mm.",
+"@bmwdetails":{
+    "description":"El BMW Z4 tiene 1 motor de gasolina en oferta. El motor de gasolina es de 2998 cc. Está disponible con transmisión automática. Según la variante y el tipo de combustible, el Z4 tiene un kilometraje de . El Z4 es un coche biplaza de 6 cilindros y tiene una longitud de 4324 mm, una anchura de 2024 mm y una distancia entre ejes de 2470 mm."
 },
 "bentlytitle":"Bentley Mulsanne",
 "@bentlytitle":{

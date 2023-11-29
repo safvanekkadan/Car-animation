@@ -32,8 +32,16 @@ class ScreenTitle extends StatelessWidget {
                 text ?? '',
                 style: const TextStyle(
                   fontSize: 37,
-                  color: cBlackColor,
-                  fontWeight: FontWeight.w900,
+                  color:Colors.white54,
+                  fontWeight: FontWeight.bold,
+                  shadows: [
+                     BoxShadow(
+                      color: cBlackColor,
+                      spreadRadius: 20,
+                      blurRadius: 15,
+                      offset: Offset(0, -2)
+                    )
+                  ]
                 ),
               ),
           ),

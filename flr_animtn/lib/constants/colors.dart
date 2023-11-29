@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 const cBlackColor = Colors.black;
+
+final  cBlackColoropo = Colors.black.withOpacity(0.8);
 const cBlackColor26 = Colors.black26;
 const cBlackColor45 = Colors.black45;
 const cWhiteColor = Colors.white;

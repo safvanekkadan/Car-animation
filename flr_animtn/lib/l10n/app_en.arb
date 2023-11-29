@@ -1,7 +1,7 @@
 {
-"texttitle":"Car Collection",
+"texttitle":"Car Hub",
 "@texttitle":{
-    "description":"Car Collection"
+    "description":"Car Hub"
 },
 "astontitle":"Aston Martin Rapide",
 "@astontitle":{
@@ -11,13 +11,21 @@
 "@astondetails":{
     "description":"The big Aston is old now but just look at it! It has to be the best-looking luxury 4-door that money can buy today. And we are including this for all the old-school readers out there. It reeks of old school charm starting with the archaic 6.0-litre naturally aspirated (beat that) engine developing 558PS and 630Nm of torque. Other goodies include an opulent 4-seater cabin, 8-speed Touchtronic III gearbox, a sports exhaust and 3-stage adaptive damping. We don’t know about you but we would definitely buy one just for the way it looks. How much? It starts from a casual Rs 3.29 crore (ex-showroom India)"
 },
-"defenderttitle":"Rolls-Royce Phantom",
-"@broasttitle":{
+"rolsroycettitle":"Rolls-Royce Phantom",
+"@rolsroycettitlettitle":{
     "description":"Rolls-Royce Phantom"
 },
-"defenderdetails":"Obviously, the Phantom tops the list here. There’s nothing as majestic as the Rolls-Royce Phantom to announce your arrival. The eighth-generation version packs in an aluminium space frame chassis married to a 6.75-litre twin-turbocharged V12 (565PS and 900 Nm of peak torque) and a freakishly quiet cabin that is more luxurious than the Buckingham Palace. Finest leather in the world, Phantom’s starlight headliner,  and champagne cooler are some of the highlights. Cons? It costs a whopping Rs 9.5 crore for standard wheelbase and Rs 11.35 crore for the long wheelbase version",
-"@defenderdetails":{
+"rolsroycedetails":"Obviously, the Phantom tops the list here. There’s nothing as majestic as the Rolls-Royce Phantom to announce your arrival. The eighth-generation version packs in an aluminium space frame chassis married to a 6.75-litre twin-turbocharged V12 (565PS and 900 Nm of peak torque) and a freakishly quiet cabin that is more luxurious than the Buckingham Palace. Finest leather in the world, Phantom’s starlight headliner,  and champagne cooler are some of the highlights. Cons? It costs a whopping Rs 9.5 crore for standard wheelbase and Rs 11.35 crore for the long wheelbase version",
+"@rolsroycedetails":{
     "description":"Obviously, the Phantom tops the list here. There’s nothing as majestic as the Rolls-Royce Phantom to announce your arrival. The eighth-generation version packs in an aluminium space frame chassis married to a 6.75-litre twin-turbocharged V12 (565PS and 900 Nm of peak torque) and a freakishly quiet cabin that is more luxurious than the Buckingham Palace. Finest leather in the world, Phantom’s starlight headliner,  and champagne cooler are some of the highlights. Cons? It costs a whopping Rs 9.5 crore for standard wheelbase and Rs 11.35 crore for the long wheelbase version"
+},
+"bmwtitle":"BMW Z4",
+"@bmwtitle":{
+    "description":"BMW Z4"
+},
+"bmwdetails":"The BMW Z4 has 1 Petrol Engine on offer. The Petrol engine is 2998 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the Z4 has a mileage of . The Z4 is a 2 seater 6 cylinder car and has length of 4324 mm, width of 2024 mm and a wheelbase of 2470 mm",
+"@bmwdetails":{
+    "description":"The BMW Z4 has 1 Petrol Engine on offer. The Petrol engine is 2998 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the Z4 has a mileage of . The Z4 is a 2 seater 6 cylinder car and has length of 4324 mm, width of 2024 mm and a wheelbase of 2470 mm"
 },
 "bentlytitle":"Bentley Mulsanne",
 "@bentlytitle":{

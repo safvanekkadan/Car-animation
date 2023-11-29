@@ -44,7 +44,7 @@ class CarPackageTile extends StatelessWidget {
             ),
           ),
           trailing: Text(
-            '\$${car.price}',
+            '₹${car.price}',
             style: const TextStyle(color: cWhiteColor),
           ),
         ),
