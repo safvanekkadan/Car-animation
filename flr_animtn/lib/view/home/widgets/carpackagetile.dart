@@ -1,4 +1,3 @@
-import 'package:flr_animtn/constants/border.dart';
 import 'package:flr_animtn/constants/colors.dart';
 import 'package:flr_animtn/view/details/details.dart';
 import 'package:flr_animtn/model/car_model.dart';
@@ -36,11 +35,17 @@ class CarPackageTile extends StatelessWidget {
                       color: cWhiteColor)),
             ],
           ),
-          leading: ClipRRect(
-            borderRadius: cRadius8,
+          leading: Container(
+            decoration:const  BoxDecoration(
+              color: cTransparentColor,
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+            ),
+            
             child: Hero(
               tag: 'tag${car.img}',
-              child: Image.asset('assets/${car.img}', height: 50.0),
+              child: Image.asset('assets/${car.img}', height: 50.0,
+              width: 100,
+              fit: BoxFit.contain,),
             ),
           ),
           trailing: Text(

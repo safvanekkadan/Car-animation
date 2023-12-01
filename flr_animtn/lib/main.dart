@@ -1,8 +1,7 @@
 import 'package:flr_animtn/controller/car_provider.dart';
 import 'package:flr_animtn/controller/locale_provider.dart';
-import 'package:flr_animtn/controller/thumb_icon_provider.dart';
+import 'package:flr_animtn/controller/like_icon_provider.dart';
 import 'package:flr_animtn/l10n/l10n.dart';
-import 'package:flr_animtn/view/home/homescreen.dart';
 import 'package:flr_animtn/view/mainmenu/menudrawer.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -13,14 +12,10 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 void main() {
   runApp(MultiProvider(
     providers: [
-      
         ChangeNotifierProvider(create: (context) => LocaleProvider(),),
         ChangeNotifierProvider(create: (context) => CarCollectionProvider(),),
-        ChangeNotifierProvider(create: (context) => ThumbIconProvider(),)
-        
-      
+        ChangeNotifierProvider(create: (context) => LikeIconProvider(),) 
     ],
-
     child: const MyApp()));
 }
 
@@ -42,7 +37,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Car Hub',
         theme: ThemeData(
-        // Use the GoogleFonts class to apply Google Fonts
         textTheme: GoogleFonts.robotoTextTheme(
           Theme.of(context).textTheme,
         ),

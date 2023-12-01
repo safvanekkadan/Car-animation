@@ -11,10 +11,10 @@ class CarCollectionProvider extends ChangeNotifier{
   Future<void> fetchCollection(BuildContext context) async {
     carPackageTiles.clear();
     final cars = _carService.fetchCars(context);
-
-    final ft = Future(() {});
+   //use to introduce delay before each iteration of the loop
+    final cc = Future(() {});
     for (final car in cars) {
-      await ft;
+      await cc;
       await Future.delayed(const Duration(milliseconds: 100));
       // ignore: use_build_context_synchronously
       carPackageTiles.add(CarPackageTile(context: context, car:car));

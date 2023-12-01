@@ -1,3 +1,4 @@
+import 'package:flr_animtn/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 
@@ -7,6 +8,7 @@ class MenuWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(onPressed: ()=>ZoomDrawer.of(context)!.toggle(),
-     icon: Icon(Icons.turn_slight_left_outlined));
+     icon: const Icon(Icons.turn_slight_left_outlined,
+     color: cWhiteColor,));
   }
 }

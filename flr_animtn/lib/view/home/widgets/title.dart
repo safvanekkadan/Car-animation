@@ -30,13 +30,13 @@ class ScreenTitle extends StatelessWidget {
               borderRadius: cRadius30,
               child: Text(
                 text ?? '',
-                style: const TextStyle(
+                style:  const TextStyle(
                   fontSize: 37,
-                  color:Colors.white54,
+                  color:Colors.white,
                   fontWeight: FontWeight.bold,
                   shadows: [
                      BoxShadow(
-                      color: cBlackColor,
+                      color: cBlackColor45,
                       spreadRadius: 20,
                       blurRadius: 15,
                       offset: Offset(0, -2)

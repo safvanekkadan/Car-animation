@@ -41,7 +41,7 @@ class _DropdownButtonWidgetState extends State<DropdownButtonWidget> {
              ),
            ),
            onTap: (){
-            value.setLocale( Locale('en'));
+            value.setLocale( const Locale('en'));
            },
             ),
             ListTile(
@@ -53,7 +53,7 @@ class _DropdownButtonWidgetState extends State<DropdownButtonWidget> {
              ),
            ),
            onTap: () {
-                value.setLocale( Locale('hi'));
+                value.setLocale( const Locale('hi'));
            },
             ),
             ListTile(

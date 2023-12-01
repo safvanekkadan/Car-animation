@@ -12,7 +12,7 @@ class CarList extends StatefulWidget {
 }
 
 class _CarListState extends State<CarList> {
-  final Tween<Offset> _offset = Tween(begin: const Offset(1, 3), end: const Offset(0, 0));
+  final Tween<Offset> _offset = Tween(begin: const Offset(1, 1), end: const Offset(0, 0));
 
   @override
   void initState() {

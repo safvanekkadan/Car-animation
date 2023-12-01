@@ -1,7 +1,6 @@
 import 'package:flr_animtn/constants/border.dart';
 import 'package:flr_animtn/constants/colors.dart';
 import 'package:flr_animtn/constants/sizedbox.dart';
-import 'package:flr_animtn/view/home/widgets/language.dart';
 import 'package:flr_animtn/view/home/widgets/list.dart';
 import 'package:flr_animtn/view/home/widgets/menuwidget.dart';
 import 'package:flr_animtn/view/home/widgets/title.dart';
@@ -21,13 +20,17 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
+          height: MediaQuery.of(context).size.height*1/1,
+          //height: double.infinity,
           padding: const EdgeInsets.all(20),
-          //color: Colors.white60,
+          
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("volvoxc90.jpg"),
+                image: AssetImage("assets/abc.jpg",
+                ),
                 fit: BoxFit.cover,
-                alignment: Alignment.topLeft
+                
+
                 ),
           ),
           child: Column(
@@ -38,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                  children: [
                    MenuWidget(),
-                  //  DropdownButtonWidget(),
+                  
                  ],
                ),
               cHeight10,
@@ -58,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       offset: Offset(0, 3)
                     )
                   ],
-                    color: cBlackColor,
+                    color: cTransparentColor,
                     borderRadius: cRadius20),
                 child:  const CarList(),
               ),
